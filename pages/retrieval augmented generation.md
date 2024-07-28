@@ -1,3 +1,5 @@
+subject:: ai
+
 - Here is the basic principle for RAGs:
 	- Break down context into smaller "chunks".
 	  logseq.order-list-type:: number
