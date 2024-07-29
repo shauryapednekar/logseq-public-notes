@@ -1,3 +1,3 @@
-- [[!subject]] {{embed [[subject|subjects]] }}
+- [[subject | subjects]]
 - [[env-setup]]
 -
