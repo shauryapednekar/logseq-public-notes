@@ -13,8 +13,7 @@ same:: [[internal covariate shift]]
 - $\gamma$: (gamma) scale factor
 - $\beta$: (beta) shift factor
 - The parameters used to normalize the input - the moving mean and the moving variance -  are not trainable parameters. They are simply calculated based on the input. In other words, the architecture of the model does not impact the values for the moving mean and the moving variance.
-  
-  The scale factor and the shift factor are learned (trainable) parameters. 
+- The scale factor and the shift factor are learned (trainable) parameters. 
   
   An important thing to remember about this layer is that it performs differently during training and during inference.
 - During training, it uses the batch mean and batch variance.
