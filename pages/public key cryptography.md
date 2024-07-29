@@ -1,3 +1,4 @@
 subject:: [[subject/math]]
 
-- A form of assym
+- Public
+- Asymmetric cryptography: encrypt with one key and decrypt with the other.
