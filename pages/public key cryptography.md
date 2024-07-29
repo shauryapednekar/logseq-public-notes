@@ -14,4 +14,4 @@ parents:: [[cryptography]]
 	  *ignoring hash collisions.
 - Each private key has an associated public key. It's possible to generate the public key from the private key, but you cannot generate the private key from the public key.
 - Reflections
-	-
+	- Everything relies on Rather than try to steal the private keys, it might be easier for malicious actors to simply inject incorrect public keys for which they have the correspoding
