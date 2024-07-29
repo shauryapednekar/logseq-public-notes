@@ -4,7 +4,7 @@ subject:: [[subject/math]]
 - Asymmetric cryptography: encrypt with one key and decrypt with the other.
 - A couple uses are public key encryption and public key signatures.
 - Public key encryption:
-	- Why: To send data over a network without
+	- Why: To send data over a network without letting others read it.
 	- How: Encrypt data using the public key so only the entity with access to the private key can read the data. The ensures the data is "secret".
 - Public key signatures:
 	- Why: To ensure that information is sent by the intended entity and that the information hasn't been modified in transit.
