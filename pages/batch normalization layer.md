@@ -1,4 +1,4 @@
-subject::  ai 
+subject:: [[subjects/ai]] 
 up:: [[neural networks]], [[bias variance tradeoffs]]
 same:: [[internal covariate shift]]
 
