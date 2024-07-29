@@ -1,3 +1,3 @@
-- [[subject | subjects]]
+- [subjects]([[subject]])
 - [[env-setup]]
 -

@@ -130,7 +130,7 @@
  ;; 1. Set "Changelog" as the home page and display "Contents" in the right sidebar:
 ;;  :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Set "Jun 3rd, 2021" as the home page without the right sidebar:
- ;; :default-home {:page "Jun 3rd, 2021"}
+ :default-home {:page "homepage"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
 
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["subjects"]
+ :favorites ["subject"]
 
  ;; Set flashcards interval.
  ;; Expected value:
