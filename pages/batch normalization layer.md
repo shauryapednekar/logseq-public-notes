@@ -3,7 +3,7 @@ up:: [[neural networks]], [[bias variance tradeoffs]]
 same:: [[internal covariate shift]]
 
 - ### Purpose
-- The batch normalization layer is used to address [[internal covariate shift]], reduce vanishing and exploding gradient issues, allow higher learning rates, reduce sensitivity to [[initialization]], and provide [[regularization]].
+	- The batch normalization layer is used to address [[internal covariate shift]], reduce vanishing and exploding gradient issues, allow higher learning rates, reduce sensitivity to [[initialization]], and provide [[regularization]].
 - **Parameters**
 - The batch normalization layer includes 4 parameters per channel. They are:
 - `moving mean`: normalizes the input during inference
@@ -12,8 +12,7 @@ same:: [[internal covariate shift]]
 	- $\text{moving\_var} = \text{moving\_var} \cdot \text{momentum} + \text{var}(\text{batch}) \cdot (1 - \text{momentum})$
 - $\gamma$: (gamma) scale factor
 - $\beta$: (beta) shift factor
-  
-  The parameters used to normalize the input - the moving mean and the moving variance -  are not trainable parameters. They are simply calculated based on the input. In other words, the architecture of the model does not impact the values for the moving mean and the moving variance.
+- The parameters used to normalize the input - the moving mean and the moving variance -  are not trainable parameters. They are simply calculated based on the input. In other words, the architecture of the model does not impact the values for the moving mean and the moving variance.
   
   The scale factor and the shift factor are learned (trainable) parameters. 
   
