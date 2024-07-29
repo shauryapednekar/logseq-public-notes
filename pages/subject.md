@@ -1,3 +1,4 @@
 - Hierarchy
 	- {{namespace subject}}
--
+- Pages
+	- {{query }}
