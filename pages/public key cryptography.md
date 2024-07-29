@@ -14,4 +14,4 @@ parents:: [[cryptography]]
 	  *ignoring hash collisions.
 - Each private key has an associated public key. It's possible to generate the public key from the private key, but you cannot generate the private key from the public key.
 - Reflections
-	- Everything relies on the recipient receiving the correct public key. Rather than try to steal the private keys, could it be simpler for malicious actors to simply inject incorrect public keys for which they have the corresponding private key?
+	- Everything seems to rely on the recipient receiving the correct public key. Rather than try to steal the private keys, could it be simpler for malicious actors to simply inject incorrect public keys for which they have the corresponding private key? When a recipient receives the public key, how does it verify that it hasn't been modified by middlemen?
