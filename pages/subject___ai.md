@@ -1,4 +1,3 @@
-- {{query }}
-- {:title ["Pages"]
-   :query (page-property subject [[subject/ai]])) (page-property :status "#inBearbeitung")}
--
+- {{query (property :subject [[subject/ai]])}}
+  query-table:: true
+  query-properties:: [:page]
