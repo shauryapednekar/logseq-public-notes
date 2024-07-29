@@ -2,7 +2,6 @@ subject:: [[subject/math]]
 parents:: [[cryptography]]
 
 - Fascinating applications of prime numbers and modulus to provide an unparalleled layer of security in otherwise dangerous interactions.
-- Each private key has an associated public key. It's possible to generate the public key from the private key, but you cannot generate the private key from the public key.
 - *Asymmetric cryptography*: encrypt with one key and decrypt with the other.
 - **Public key encryption**
 	- Why: To send data over a network without letting others read it.
@@ -10,3 +9,4 @@ parents:: [[cryptography]]
 - **Public key signatures**
 	- Why: To ensure that information is sent by the intended entity and that the information hasn't been modified in transit.
 	- How it works: Encrypt hash of file using the private key to create a "signature". Recipient decrypts signature using public key. The decrypted message should match the hash of the corresponding file to ensure that it was the same file sent by the original entity.
+- Each private key has an associated public key. It's possible to generate the public key from the private key, but you cannot generate the private key from the public key.

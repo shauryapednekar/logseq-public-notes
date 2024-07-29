@@ -1,4 +1,5 @@
 subject:: [[subject/technologies]]
+parents:: [[operating systems]]
 
 - [[Package Management]]
 	- It uses APT (advanced package tool) to manage packages.
