@@ -6,6 +6,7 @@ parents:: [[cryptography]]
 - **Public key encryption**
 	- Why: To send data over a network without letting others read it.
 	- How: Encrypt data using the public key so only the entity with access to the private key can read the data. The ensures the data is "secret".
+	- Analogy: A public key is like a
 - **Public key signatures**
 	- Why: To ensure that information is sent by the intended entity and that the information hasn't been modified in transit.
 	- How it works: Encrypt hash of file using the private key to create a "signature". Recipient decrypts signature using public key. The decrypted message should match the hash of the corresponding file to ensure that it was the same file sent by the original entity.
