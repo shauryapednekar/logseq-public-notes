@@ -1,2 +1,3 @@
-- {{namespace subject}}
+- Hierarchy
+	- {{namespace subject}}
 -
