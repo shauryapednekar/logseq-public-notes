@@ -1,4 +1,4 @@
-subject:: [[subjects/ai]]
+subject:: [[subject/ai]]
 
 - Here is the basic principle for RAGs:
 	- Break down context into smaller "chunks".
