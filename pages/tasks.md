@@ -6,11 +6,10 @@
 	- {{query (property :status "todo")}}
 	  query-table:: true
 	  query-properties:: [:page]
-	- ```
-	  #+BEGIN_QUERY
+	- #+BEGIN_QUERY
 	  {:title "TODO tasks"
 	   :query [:find (pull ?b [*])
 	           :where
 	           (task ?b #{"TODO"})]}
 	  #+END_QUERY
-	  ```
+	-
