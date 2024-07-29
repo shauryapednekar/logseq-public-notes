@@ -1,12 +1,10 @@
-topic:: #ai 
+subject::  ai 
 up:: [[neural networks]], [[bias variance tradeoffs]]
 same:: [[internal covariate shift]]
 
 - ### Purpose
 - The batch normalization layer is used to address [[internal covariate shift]], reduce vanishing and exploding gradient issues, allow higher learning rates, reduce sensitivity to [[initialization]], and provide [[regularization]].
-  
-  
-  **Parameters**
+- **Parameters**
   The batch normalization layer includes 4 parameters per channel. They are:
 - `moving mean`: normalizes the input during inference
 	- $\text{moving\_mean} = \text{moving\_mean} \cdot \text{momentum} + \text{mean}(\text{batch}) \cdot (1 - \text{momentum})$
