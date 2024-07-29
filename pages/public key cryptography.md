@@ -13,3 +13,5 @@ parents:: [[cryptography]]
 	- Analogy: In this case, the private key serves as a "custom private lock" that can only be unlocked by the public key. If the public key can successfully unlock the message, it verifies that the correct private key locked the message. Furthermore, the message itself corresponds to unique* number identifying the original file, so if the original file does not match that unique number, the original file must have been modified in some way according to the original entity.
 	  *ignoring hash collisions.
 - Each private key has an associated public key. It's possible to generate the public key from the private key, but you cannot generate the private key from the public key.
+- Reflections
+	-
