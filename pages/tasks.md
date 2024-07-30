@@ -12,4 +12,8 @@
 	           :where
 	           (task ?b #{"TODO"})]}
 	  #+END_QUERY
+	- #+BEGIN_QUERY
+	  {:title ["Pages"]
+	   :query (and (AND (page-property status Next) (page-property area Arbeit)) (page-property :status "#inBearbeitung")) }
+	  #+END_QUERY
 	-
