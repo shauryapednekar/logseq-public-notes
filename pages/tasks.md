@@ -14,6 +14,8 @@
 	  #+END_QUERY
 	- #+BEGIN_QUERY
 	  {:title ["Pages"]
-	   :query (page-property status next) }
+	   :query (page-property status next) 
+	   
+	  }
 	  #+END_QUERY
 	-
