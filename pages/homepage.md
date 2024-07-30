@@ -1,4 +1,4 @@
 - [subjects]([[subject]])
 - [[env-setup]]
 - [[tasks]]
-- [[resources]]
+- [[bookmarks]]
