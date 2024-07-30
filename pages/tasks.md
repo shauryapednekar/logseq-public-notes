@@ -28,4 +28,3 @@
   :query-table true
   }
   #+END_QUERY
-	-
