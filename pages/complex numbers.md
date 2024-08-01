@@ -9,7 +9,6 @@ source:: [[3Blue1Brown]]
 	- $$
 	  z \cdot (c + di) = c \cdot z + d \cdot zi = c \cdot z + d \cdot Rot90(z)
 	  $$
-	- #confused
--
+	- #confused Not sure I understand the visual intuition behind this.
 - What does the complex number plane offer that the "regular" Cartesian/Euclidean plan does not?
 	- The complex number plan has a strong notion of multiplication of two complex numbers.
