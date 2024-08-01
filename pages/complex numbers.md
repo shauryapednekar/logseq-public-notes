@@ -11,4 +11,4 @@ source:: [[3Blue1Brown]]
 	  $$
 	- #confused Not sure I understand the visual intuition behind this.
 - What does the complex number plane offer that the "regular" Cartesian/Euclidean plane does not?
-	- The complex number plane has a strong intuitive notion of multiplication of two complex numbers, whereas
+	- The complex number plane has a strong intuitive notion of multiplication of two complex numbers (as rotations), whereas there isn't a
