@@ -7,10 +7,9 @@ source:: [[3Blue1Brown]]
 	- A visual way of thinking about this is that $i$ is the transformation that takes the number 1 to $i$, which preserves magnitude while moving the point counter clockwise by 90 degrees.
 - Multiple one complex number by another gives a linear combination of the original complex number and its Rot90.
 	- $$
-	  z \cdot (c + di) = 
+	  z \cdot (c + di) = c \cdot z + d \cdot zi = c \cdot z + d \cdot Rot90(z)
 	  $$
-	-
-	-
+	- #confused
 -
 - What does the complex number plane offer that the "regular" Cartesian/Euclidean plan does not?
 	- The complex number plan has a strong notion of multiplication of two complex numbers.
