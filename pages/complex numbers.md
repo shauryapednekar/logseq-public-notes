@@ -10,4 +10,4 @@ source:: [[3Blue1Brown]]
 	  z \cdot (c + di) = c \cdot z + d \cdot zi = c \cdot z + d \cdot Rot90(z)
 	  $$
 	- #confused Not sure I understand the visual intuition behind this.
-- Multiplication of complex numbers is rotating (and stretching/shrinking)
+- Multiplication of complex numbers is rotating (and stretching/shrinking) one complex number by the other.
