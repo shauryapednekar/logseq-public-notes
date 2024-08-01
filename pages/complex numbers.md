@@ -10,5 +10,4 @@ source:: [[3Blue1Brown]]
 	  z \cdot (c + di) = c \cdot z + d \cdot zi = c \cdot z + d \cdot Rot90(z)
 	  $$
 	- #confused Not sure I understand the visual intuition behind this.
-- What does the complex number plane offer that the "regular" Cartesian/Euclidean plane does not?
-	- The complex number plane has a strong intuitive notion of multiplication of two complex numbers (as rotations), whereas there isn't a
+- Multiplication of complex numbers is rotating (and stretching/shrinking)
