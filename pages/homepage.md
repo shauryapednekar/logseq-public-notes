@@ -1,4 +1,6 @@
-- [subjects]([[subject]])
-- [[env-setup]]
-- [[tasks]]
-- [[bookmarks]]
+- [subjects]([[subject]]): Useful entrypoints for navigating content on this site.
+- [[env-setup]]: Notes on how I've set up different environments.
+- [[tasks]]: Things I should work on.
+- [[bookmarks]]: Curated resources I've found useful.
+-
+- NOTE: For help on navigating this site, press `esc` followed by `?`.

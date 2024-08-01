@@ -1,3 +1,5 @@
+subject:: [[env-setup]]
+
 - #+BEGIN_QUERY
   {:title ["Pages"]
    :query (page-property subject [[subject/ai]]) 
@@ -10,3 +12,4 @@
   :query-table true
   }
   #+END_QUERY
+-
