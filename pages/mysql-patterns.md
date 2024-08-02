@@ -4,4 +4,9 @@ source:: [[original]]
 
 - This page captures common query patterns that I've found useful in my experience working with data.
 - A side note on CTEs
-	- CTEs (common table expressions) are named subqueries that can be reused multiple times within the query. I find them way nicer to use both in terms of
+	- CTEs (common table expressions) are named subqueries that can be reused multiple times within the query. I find them way nicer to use in terms of readability of the  query than nested `SELECT`s.
+- Common Patterns
+	- Finding rows with duplicate IDs
+	  logseq.order-list-type:: number
+		- When would this be useful? When running data quality checks for
+		  logseq.order-list-type:: number
