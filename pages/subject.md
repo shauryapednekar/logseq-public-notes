@@ -2,7 +2,7 @@
 	- {{namespace subject}}
 - rough
 	- #+BEGIN_QUERY
-	  {:title [:h3 "Subject"]
+	  {:title [:h3 "Subjects"]
 	   :query [:find ?subject
 	    :kesys ubject
 	    :where
