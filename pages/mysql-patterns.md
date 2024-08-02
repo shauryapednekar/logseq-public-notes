@@ -1,2 +1,6 @@
 subject:: [[cs]]
-parents:
+parents:: [[data engineering]]
+source:: [[original]]
+
+- This page captures common query patterns that I've found useful in my experience working with data.
+- CTEs
