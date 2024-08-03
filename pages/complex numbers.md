@@ -45,7 +45,8 @@ status:: active
 - Whats an identity related to $cis(\theta)$ that related addition to multiplication?
 	- #identities $cis(\alpha + \beta) = cis(\alpha) \cdot cis(\beta)$
 		- Geometrically, this makes sense because the right side first takes the vector on the unit circle that is formed by $\alpha$, and then multiples (i.e. *rotates*) it by $\beta$ degrees, which is equivalent to simply taking the unit vector on the unit circle that is formed by the sum of both the angles.
-		- This means that for the function $cis()$, adding the inputs is the
+		- This means that for the function $cis()$, adding the inputs gives the same result as multiplying the outputs.
+			- This is also true for the exponent function, where $a^{x+y} = a^x \cdot a
 - What is the [[fundamental theorem of algebra]]?
 	- A polynomial of degree $n$ has $n$ solutions in the complex number plane. #superficial-understanding
 - What does division represent for complex numbers?
