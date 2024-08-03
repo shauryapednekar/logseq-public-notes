@@ -14,6 +14,7 @@ status:: active
          :where
          [?p :block/name ?current-page]
          [?b :block/refs ?p]
+         [?]
          (task ?b #{"TODO"})]
    :inputs [:current-page]}
   #+END_QUERY
