@@ -43,3 +43,4 @@ status:: active
 - What does division represent for complex numbers?
 	- Rotation and stretching in the opposite direction.
 	- #identities $cis(\theta) = \frac{1}{cis(-\theta)}$
+-
