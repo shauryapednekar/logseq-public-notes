@@ -1,6 +1,5 @@
 subject:: [[subject/math]]
 sources:: [[3Blue1Brown]]
-status:: active
 
 - TODO Add notes on complex numbers to SRS.
   :LOGBOOK:
