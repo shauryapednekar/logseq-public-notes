@@ -20,7 +20,8 @@ status:: active
          ]
    :inputs [:current-page]}
   #+END_QUERY
-- #+BEGIN_QUERY
+- query-properties:: [:block]
+  #+BEGIN_QUERY
   {:title "Identities"
    :query [
          :find (pull ?b [*])
