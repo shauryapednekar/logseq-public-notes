@@ -22,4 +22,5 @@ status:: active
 - Notation: $cis(\theta) = cos(\theta) + i \cdot sin(\theta)$.
 	- #confused I'm assuming this represents complex numbers that lie only on the unit circle?
 - $cis(\alpha + \beta) = cis(\alpha) \cdot cis(\beta)$
-	- Geometrically, this makes sense because the left side is directly vector on the unit circle that is formed by the sum of both the angles, whereas the right side
+	- Geometrically, this makes sense because the left side is directly defined as the vector on the unit circle that is formed by the sum of both the angles, whereas the right side first takes the vector on the unit circle that is formed by $\alpha$, and then multiples (i.e. *rotates*) it by $\beta$ degrees, which is equivalent to simply
+-
