@@ -24,7 +24,6 @@ status:: active
   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
   }
   #+END_QUERY
--
 - Complex numbers are of the form $a + bi$, where $a$ is the real and $b$ is the *imaginary* component. The complex number plane has two dimensional "vectors" where the first dimension is the real number line, and the second dimension is orthogonal to the number line and has the property that a unit in the second dimension squared is equal to negative one on the real number line. Mathematically, $i$ is the unit of the second dimension, and it is defined to have the property that $i^2 = -1$.
 - Complex numbers are commonly used for transforms involving rotations.
 - Multiplying a complex number $z$ by $i$ rotates $z$ by 90 degrees.
