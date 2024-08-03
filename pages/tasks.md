@@ -5,7 +5,7 @@
 	  :view (fn [rows] [:table 
 	   [:tbody 
 	  (for [r rows] [:tr 
-	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/capitalize (get r :block/name))]]])
+	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/lower-case (get r :block/name))]]])
 	     ]]
 	  )
 	  :result-transform (fn [result] (sort-by (fn [r] (get r :block/name)) result))
@@ -18,7 +18,7 @@
 	  :view (fn [rows] [:table 
 	   [:tbody 
 	  (for [r rows] [:tr 
-	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/capitalize (get r :block/name))]]])
+	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/lower-case (get r :block/name))]]])
 	     ]]
 	  )
 	  :query-table true
@@ -31,7 +31,7 @@
 	  :view (fn [rows] [:table 
 	   [:tbody 
 	  (for [r rows] [:tr 
-	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/capitalize (get r :block/name))]]])
+	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/lower-case (get r :block/name))]]])
 	     ]]
 	  )
 	  :result-transform (fn [result] (sort-by (fn [r] (get r :block/name)) result))
