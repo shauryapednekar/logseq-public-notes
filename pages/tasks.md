@@ -8,6 +8,7 @@
 	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/capitalize (get r :block/name))]]])
 	     ]]
 	  )
+	  :result-transform (fn [result] (sort-by (fn [r] (get r :block/name)) result))
 	  :query-table true
 	  }
 	  #+END_QUERY
@@ -21,6 +22,7 @@
 	     ]]
 	  )
 	  :query-table true
+	  :result-transform (fn [result] (sort-by (fn [r] (get r :block/name)) result))
 	  }
 	  #+END_QUERY
 	- #+BEGIN_QUERY
@@ -32,6 +34,7 @@
 	     [:td [:a {:href (str "#/page/" (get r :block/name))} (clojure.string/capitalize (get r :block/name))]]])
 	     ]]
 	  )
+	  :result-transform (fn [result] (sort-by (fn [r] (get r :block/name)) result))
 	  :query-table true
 	  }
 	  #+END_QUERY
