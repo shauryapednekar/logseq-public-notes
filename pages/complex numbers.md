@@ -9,13 +9,15 @@ status:: active
   :END:
 - #+BEGIN_QUERY
   {:title "Identities"
-   :query [:find (pull ?b [*])
+   :query [
+         :find (pull ?b [*])
          :in $ ?current-page
          :where
          [?p :block/name ?current-page]
          [?b :block/refs ?p]
-         [?]
-         (task ?b #{"TODO"})]
+         [?q: block/name "superficial-understanding"]
+         [?b :block/refs ?q]
+         ]
    :inputs [:current-page]}
   #+END_QUERY
 -
