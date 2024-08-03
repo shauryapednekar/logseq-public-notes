@@ -20,4 +20,5 @@ status:: active
 - Multiplication of complex numbers is rotating (and stretching/shrinking) one complex number by the other.
 - When considering the complex numbers that lie on the unit circle, the real (i.e. horizontal) component is equal to $cos(\theta)$ and the imaginary (i.e. vertical) component is equal to $sin(\theta)$ where $\theta$ is the angle between the number line and the vector representation of the complex number.
 - Notation: $cis(\theta) = cos(\theta) + i \cdot sin(\theta)$
--
+- $cis(\alpha + \beta) = cis(\alpha) \cdot cis(\beta)$
+	-
