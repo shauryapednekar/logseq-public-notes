@@ -42,4 +42,4 @@ status:: active
 	- A polynomial of degree $n$ has $n$ solutions in the complex number plane. #superficial-understanding
 - What does division represent for complex numbers?
 	- Rotation and stretching in the opposite direction.
-	-
+	- #identities $cis(\theta) = \frac{1}{}
