@@ -15,7 +15,7 @@ status:: active
          :where
          [?p :block/name ?current-page]
          [?b :block/refs ?p]
-         [?q: block/name "superficial-understanding"]
+         [?q :block/name "superficial-understanding"]
          [?b :block/refs ?q]
          ]
    :inputs [:current-page]}
