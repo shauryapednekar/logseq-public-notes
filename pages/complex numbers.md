@@ -37,7 +37,8 @@ status:: active
 	- Algebraically, multiplying one complex number by another gives a linear combination of the original complex number and its Rot90.
 		- #identities $z \cdot (c + di) = c \cdot z + d \cdot zi = c \cdot z + d \cdot Rot90(z)$
 		- #confused Not sure I understand the visual intuition behind this.
-- When considering the complex numbers that lie on the unit circle, the real (i.e. horizontal) component is equal to $cos(\theta)$ and the imaginary (i.e. vertical) component is equal to $sin(\theta)$ where $\theta$ is the angle between the number line and the vector representation of the complex number.
+- For complex numbers that lie on the unit circle, what do the real and imaginary parts of the complex number represent?
+	- When considering the complex numbers that lie on the unit circle, the real (i.e. horizontal) component is equal to $cos(\theta)$ and the imaginary (i.e. vertical) component is equal to $sin(\theta)$ where $\theta$ is the angle between the number line and the vector representation of the complex number.
 - #identities $cis(\theta) = cos(\theta) + i \cdot sin(\theta)$.
 	- #confused I'm assuming this represents complex numbers that lie only on the unit circle?
 - #identities $cis(\alpha + \beta) = cis(\alpha) \cdot cis(\beta)$
