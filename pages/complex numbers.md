@@ -7,20 +7,7 @@ status:: active
   CLOCK: [2024-08-03 Sat 13:19:24]--[2024-08-03 Sat 13:19:24] =>  00:00:00
   CLOCK: [2024-08-03 Sat 13:19:25]--[2024-08-03 Sat 13:19:25] =>  00:00:00
   :END:
-- #+BEGIN_QUERY
-  {:title "Identities"
-   :query [
-         :find (pull ?b [*])
-         :in $ ?current-page
-         :where
-         [?p :block/name ?current-page]
-         [?b :block/page ?p]
-         [?t :block/name "math-identities"]
-         [?b :block/refs ?t]
-         ]
-   :inputs [:current-page]}
-  #+END_QUERY
-- query-properties:: [:block]
+- query-properties:: [:block :page]
   #+BEGIN_QUERY
   {:title "Identities"
    :query [
