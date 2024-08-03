@@ -17,4 +17,5 @@ status:: active
 	  $$
 	- #confused Not sure I understand the visual intuition behind this.
 - Multiplication of complex numbers is rotating (and stretching/shrinking) one complex number by the other.
-- When considering the complex numbers that lie on the unit circle, the real (i.e. horizontal) componen
+- When considering the complex numbers that lie on the unit circle, the real (i.e. horizontal) component is equal to $cos(\theta)$ and the imaginary (i.e. vertical) component is equal to $sin(\theta)$ where $\
+-
