@@ -42,9 +42,10 @@ status:: active
 - What is a common notation for representing complex numbers that lie on the unit circle?
 	- #identities $cis(\theta) = cos(\theta) + i \cdot sin(\theta)$.
 		- #confused I'm assuming this represents complex numbers that lie only on the unit circle?
-- Whats an identity related to $cis(\theta)
+- Whats an identity related to $cis(\theta)$ that related addition to multiplication?
 	- #identities $cis(\alpha + \beta) = cis(\alpha) \cdot cis(\beta)$
 		- Geometrically, this makes sense because the right side first takes the vector on the unit circle that is formed by $\alpha$, and then multiples (i.e. *rotates*) it by $\beta$ degrees, which is equivalent to simply taking the unit vector on the unit circle that is formed by the sum of both the angles.
+		- This means that for the function $cis()$, adding the inputs is the
 - What is the [[fundamental theorem of algebra]]?
 	- A polynomial of degree $n$ has $n$ solutions in the complex number plane. #superficial-understanding
 - What does division represent for complex numbers?
