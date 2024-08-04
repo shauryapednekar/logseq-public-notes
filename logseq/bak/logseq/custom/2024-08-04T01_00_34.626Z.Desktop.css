@@ -1,6 +1,6 @@
 @import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css');
 
-div.references.page-linked div.breadcrumb.block-parents {
+div.references.page-linked.flex-1.flex-row div.breadcrumb.block-parents {
     display: none;
 }
 
