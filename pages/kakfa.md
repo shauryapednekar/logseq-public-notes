@@ -11,4 +11,4 @@ status:: active
 		- A consumer group distributes the load of processing messages by guaranteeing only one consumer from a consumer group will receive a message (to avoid duplication of processing).
 	- Topics and Partitions
 		- Topics are a way of logically grouping messages. For instance, all messages about a specific sensor could be written to the `/<sensor_name>` topic.
-		- Partitions are a physical grouping of messages. They can be thought of as folders for simplicity.
+		- Partitions are how the messages are physical grouped. They can be thought of as folders for simplicity. If a topic has 3 partitions, this means that each message on that topic can be written to one of three "folders".
