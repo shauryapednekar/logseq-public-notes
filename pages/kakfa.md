@@ -24,5 +24,6 @@ status:: active
 	- Active community
 - Weaknesses
 	- Complicated Setup
-	-
+- Useful Resources
+	- https://docs.confluent.io/kafka/design/index.html
 	-
