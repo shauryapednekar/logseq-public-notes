@@ -8,4 +8,6 @@ status:: active
 	- Publishers and Consumers
 		- Publishers write to a topic.
 		- Consumers receive message published on a topic.
-		- A consumer group distributes the load of processing messages by g
+		- A consumer group distributes the load of processing messages by guaranteeing only one consumer from a consumer group will receive a message (to avoid duplication of processing).
+	- Topics and Partitions
+		- Topics are a way of logically grouping messages. For instance, all messages about
