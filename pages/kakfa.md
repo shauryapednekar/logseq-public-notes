@@ -15,4 +15,6 @@ status:: active
 	- Replication factor
 		- This can be thought of as the number of backups for a topic. While this does not distribute write load, it does help distribute read load, and is useful if the original node is corrupted.
 	- Distributed Nature
-		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers can be easily added as separate compute nodes and connected to Kafka. Similarly, more Kafka worker nodes can be provisioned to allow for spreading the
+		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers can be easily added as separate compute nodes and connected to Kafka. Similarly, more Kafka worker nodes can be provisioned to allow for spreading the load of writing and reading messages.
+	- Low Write Latency
+		- Writing to a Kafka topic is
