@@ -5,7 +5,7 @@ status:: active
 - An open source distributed streaming framework for high availability and low latency that follows a pub-sub model. The framework follows a master/workers relationship, where the master node keeps track of all the meta information regarding the setup, such as which topics are available, its consumers, and the replication factor and number of partitions for the topics (or maybe that's done by ZooKeeper).
 - Concepts
 	- Cluster
-		- A group of containers
+		- A group of containers that work together to handle incoming and outgoing streams.
 	- Producers and Consumers
 		- Producers write to a topic.
 		- Consumers receive message published on a topic.
@@ -20,6 +20,7 @@ status:: active
 		- Writing to a Kafka topic is essentially writing to an append only log file (ignoring replication). This is a very simple operation and allows for very low latency when writing to Kafka.
 	- Distributed Nature
 		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers can be easily added as separate compute nodes and connected to Kafka. Similarly, more Kafka worker nodes can be provisioned to allow for spreading the load of writing and reading messages.
+	- Active community
 - Weaknesses
 	- Complicated Setup
 	-
