@@ -1,2 +1,7 @@
-/* @import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css'); */
-@import url('https://rcvd.github.io/logseq-quattro-theme/quattro.css');
+@import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css');
+
+div.references.page-linked div.breadcrumb.block-parents {
+    display: none;
+}
+
+/* @import url('https://rcvd.github.io/logseq-quattro-theme/quattro.css'); */
