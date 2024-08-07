@@ -10,4 +10,5 @@ status:: active
 		- Consumers receive message published on a topic.
 		- A consumer group distributes the load of processing messages by guaranteeing only one consumer from a consumer group will receive a message (to avoid duplication of processing).
 	- Topics and Partitions
-		- Topics are a way of logically grouping messages. For instance, all messages about
+		- Topics are a way of logically grouping messages. For instance, all messages about a specific sensor could be written to the `/<sensor_name>` topic.
+		- Partitions are a physical grouping of messages. They can be thought of as folders for simplicity.
