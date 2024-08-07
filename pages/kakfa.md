@@ -14,3 +14,5 @@ status:: active
 		- Partitions in kakfa are how the messages are physical grouped. They can be thought of as folders for simplicity. If a topic has 3 partitions, this means that each message on that topic can be written to one of three "folders". Which folder a message goes into depends on the value of the `partition_key` field for the message. The benefit of using partitions is that it distributes the load of both writing and reading messages. For this reason, you would ideally want messages to have `partition_key` values equally distributed.
 	- Replication factor
 		- This can be thought of as the number of backups for a topic. While this does not distribute write load, it does help distribute read load, and is useful if the original node is corrupted.
+	- Distributed Nature
+		- The ability for Kafka to scale horizontally is key to its widespread adoption
