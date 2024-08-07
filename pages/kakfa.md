@@ -19,8 +19,10 @@ status:: active
 	- Low Write Latency
 		- Writing to a Kafka topic is essentially writing to an append only log file (ignoring replication). This is a highly optimized operation and allows for very low latency when writing to Kafka.
 			- "With Kafka, instead of maintaining as much as possible and flushing it to the file system when memory space runs out, all data is immediately written to a persistent log on the file system without flushing to disk. This means the data is essentially transferred into the kernel’s page cache. All logic for maintaining coherency between the cache and file system is in the OS, which tends to do so more efficiently and more correctly than one-off in-process attempts." - [source](https://docs.confluent.io/kafka/design/file-system-constant-time.html).
-	- Distributed Nature
+	- Horizontal Scaling
 		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers can be easily added as separate compute nodes and connected to Kafka. Similarly, more Kafka worker nodes can be provisioned to allow for spreading the load of writing and reading messages.
+	- Fault Tolerance
+		- Kafka's distributed nature and disk writes contribute to its fault tolerance.
 	- Active community
 - Weaknesses
 	- Complicated Setup
