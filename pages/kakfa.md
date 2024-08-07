@@ -23,6 +23,8 @@ status:: active
 		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers can be easily added as separate compute nodes and connected to Kafka. Similarly, more Kafka worker nodes can be provisioned to allow for spreading the load of writing and reading messages.
 	- Fault Tolerance
 		- Kafka's distributed nature and disk writes contribute to its fault tolerance.
+	- Message Delivery Guarantees
+		- Offers *at most once*, *at least once*, and *exactly once* guarantees. See https://docs.confluent.io/kafka/design/delivery-semantics.html for more.
 	- Active community
 - Weaknesses
 	- Complicated Setup
