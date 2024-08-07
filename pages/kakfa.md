@@ -5,8 +5,8 @@ status:: active
 - An open source distributed streaming framework for high availability and low latency that follows a pub-sub model.
 - Architecture
 	- The framework follows a master/workers relationship, where the master node keeps track of all the meta information regarding the setup, such as which topics are available, its consumers, and the replication factor and number of partitions for the topics (or maybe that's done by ZooKeeper).
-	- Publishers and Consumers
-		- Publishers write to a topic.
+	- Producers and Consumers
+		- Producers write to a topic.
 		- Consumers receive message published on a topic.
 		- A consumer group distributes the load of processing messages by guaranteeing only one consumer from a consumer group will receive a message (to avoid duplication of processing).
 	- Topics and Partitions
@@ -15,4 +15,4 @@ status:: active
 	- Replication factor
 		- This can be thought of as the number of backups for a topic. While this does not distribute write load, it does help distribute read load, and is useful if the original node is corrupted.
 	- Distributed Nature
-		- The ability for Kafka to scale horizontally is key to its widespread adoption
+		- The ability for Kafka to scale horizontally is key to its widespread adoption. More producers and consumers consumers can be easily added by adding new nodes. Similarly,
